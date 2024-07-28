@@ -13,7 +13,7 @@ import java.util.List;
 
 @Controller
 @RequestMapping("/hradministrations")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://localhost:3030")
 public class HrAdministrationController {
         @Autowired
         private HrAdministrationServiceImpl hrAdministrationServiceImpl;
